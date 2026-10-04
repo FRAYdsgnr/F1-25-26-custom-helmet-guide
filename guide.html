@@ -1,0 +1,324 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Гайд — F1 Helmet Guide</title>
+
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+
+<header class="header">
+
+    <div class="container header-inner">
+
+        <a href="index.html" class="logo">
+            <span>F1</span>
+            <strong>HELMET GUIDE</strong>
+        </a>
+
+        <nav class="nav">
+            <a href="index.html#stages">Этапы</a>
+            <a href="index.html#about">О проекте</a>
+        </nav>
+
+        <button class="theme-button" id="themeButton">
+            ◐
+        </button>
+
+    </div>
+
+</header>
+
+
+<main class="guide-layout">
+
+    <!-- SIDEBAR -->
+
+    <aside class="guide-sidebar">
+
+        <div class="sidebar-title">
+            СОДЕРЖАНИЕ
+        </div>
+
+        <nav class="guide-nav">
+
+            <a href="#preparation">
+                <span>01</span>
+                Подготовка
+            </a>
+
+            <a href="#base">
+                <span>02</span>
+                Основы
+            </a>
+
+            <a href="#design">
+                <span>03</span>
+                Основной дизайн
+            </a>
+
+            <a href="#logos">
+                <span>04</span>
+                Карта материалов
+            </a>
+
+            <a href="#export">
+                <span>05</span>
+                Экспорт
+            </a>
+
+        </nav>
+
+    </aside>
+
+
+    <!-- CONTENT -->
+
+    <article class="guide-content">
+
+        <div class="guide-intro">
+
+            <div class="eyebrow">
+                F1 25 · COMPLETE GUIDE
+            </div>
+
+            <h1>
+                Создание шлема
+                для F1 25/26
+            </h1>
+
+            <p>
+                Здесь находится основной гайд, от подготовки до экспорта. Также указаны советы и прикреплены скриншоты для пояснения
+            </p>
+
+        </div>
+
+
+        <!-- 01 -->
+
+        <section class="guide-section" id="preparation">
+
+            <div class="guide-number">
+                01
+            </div>
+
+            <h2>Подготовка</h2>
+
+            <p>
+                Нам понадобится:
+            </p>
+
+   	    <p>
+                Photoshop 2021 версии 22.2 и ниже, так как в последующих версиях 3d редактор убрали.
+            </p>
+
+            <p>
+                База для шлема от jburon72 (24_career - 25_bell_Helmets)
+            </p>
+
+            <p>
+                Базовые навыки работы в редакторе
+            </p>
+
+            <p>
+                Дополнение для самой игры F1: The Movie, т.к. оно дает шлемы которые проще всего заменить. Возможно у вас Iconic издание игры, тогда The Movie вам не понадобится, но в гайде будет описана работа именно с ним
+            </p>
+
+            <p>
+                Подготовьте также материалы, чтобы придумать дизайн. Это может быть рисунок/распечатка, цифровой рисунок или что то, что вам удобней использовать
+            </p>
+
+            <div class="tip">
+                <strong>СОВЕТ</strong>
+
+                <p>
+                    Как и в любом незнакомом деле будьте внимательны, и помните что с первой попытки может что-то может не получиться. Любой навык приходит с опытом.
+                </p>
+            </div>
+
+        </section>
+
+
+        <!-- 02 -->
+
+        <section class="guide-section" id="base">
+
+            <div class="guide-number">
+                02
+            </div>
+
+            <h2>Основы</h2>
+
+            <p>
+                Здесь я на примере развертки текстур покажу, какая примерная область на UV развертке соответствует области на шлеме/крыле/визоре. 
+            </p>
+
+            <p>
+                Советую брать версию базы 25_bell_helmet.psb
+            </p>
+
+            <p>
+                В каждой текстуре есть слой wf, который показывает рабочую зону, где будут видны элементы шлема. Все что за границей видно не будет, соответственно может что то обрезаться. Так что советую самим поэксперементировать и посмотреть
+            </p>
+
+            <div class="carousel">
+    <div class="carousel-track">
+
+        <figure class="carousel-slide">
+            <img src="images/2.png" alt="Рабочее пространство">
+        </figure>
+
+        <figure class="carousel-slide">
+            <img src="images/3.png" alt="UV развертка шлема">
+        </figure>
+
+        <figure class="carousel-slide">
+            <img src="images/4.png" alt="UV развертка крыла">
+        </figure>
+
+        <figure class="carousel-slide">
+            <img src="images/5.png" alt="UV развертка визора">
+        </figure>
+
+
+    </div>
+
+    <button class="carousel-btn prev" aria-label="Назад">‹</button>
+    <button class="carousel-btn next" aria-label="Вперёд">›</button>
+
+    <div class="carousel-dots"></div>
+</div>
+
+            <h3>Цвета</h3>
+
+            <p>
+               Придумайте основную палитру для вашего шлема, учитывайте что в игре цвета отображаются бледнее или вообще с другим оттенком. Вы можете добавить ее отдельным слоем в редакторе или просто записать HEX коды этих цветов
+            </p>
+
+        </section>
+
+
+        <!-- 03 -->
+
+        <section class="guide-section" id="design">
+
+            <div class="guide-number">
+                03
+            </div>
+
+            <h2>Основной дизайн</h2>
+
+            <p>
+                Здесь размести информацию о создании
+                основной графики.
+            </p>
+
+            <h3>Создание дизайна</h3>
+
+            <p>
+                Твой текст...
+            </p>
+
+            <h3>Перенос в редактор</h3>
+
+            <p>
+                Твой текст...
+            </p>
+
+        </section>
+
+
+        <!-- 04 -->
+
+        <section class="guide-section" id="logos">
+
+            <div class="guide-number">
+                04
+            </div>
+
+            <h2>Карта материалов</h2>
+
+            <p>
+                Опиши здесь создание карты материалов
+            </p>
+
+            <div class="tip">
+                <strong>СОВЕТ</strong>
+
+                <p>
+                    Твой совет по размещению логотипов.
+                </p>
+            </div>
+
+        </section>
+
+
+        <!-- 05 -->
+
+        <section class="guide-section" id="export">
+
+            <div class="guide-number">
+                05
+            </div>
+
+            <h2>Экспорт</h2>
+
+            <p>
+                Здесь размести инструкции по подготовке
+                готового файла и его переносу в F1 25.
+            </p>
+
+            <div class="tip">
+                <strong>ВАЖНО</strong>
+
+                <p>
+                    Здесь можно указать важный момент,
+                    который легко пропустить.
+                </p>
+            </div>
+
+        </section>
+
+
+        <div class="guide-end">
+
+            <span>END OF GUIDE</span>
+
+            <a href="index.html">
+                ← Вернуться к этапам
+            </a>
+
+        </div>
+
+    </article>
+
+</main>
+
+
+<footer class="footer">
+
+    <div class="container footer-inner">
+
+        <div>
+            <strong>F1 HELMET GUIDE</strong>
+        </div>
+
+        <div>
+            F1 25/26 · 2026
+        </div>
+
+    </div>
+
+</footer>
+
+
+<script src="script.js"></script>
+
+</body>
+</html>
